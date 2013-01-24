@@ -1,5 +1,5 @@
-var ts = require('twitter-stream');
-var jsdom = require('jsdom');
+// var ts = require('twitter-stream');
+// var jsdom = require('jsdom');
 
 //Connecting to Twitter Streaming API
 // var stream = ts.connect({

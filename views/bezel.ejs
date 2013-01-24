@@ -1,18 +1,17 @@
 
 <head>
     <title><%= title %></title>
+    <link media="screen" rel="stylesheet" type="text/css" href="/stylesheets/supersized.css" />
+    <link media="screen" rel="stylesheet" type="text/css" href="/stylesheets/bezel.css" />
     <link media="screen" rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
-    <link rel="stylesheet" href="http://blueimp.github.com/cdn/css/bootstrap.min.css">
-<!--[if lt IE 7]><link rel="stylesheet" href="http://blueimp.github.com/cdn/css/bootstrap-ie6.min.css"><![endif]-->
-<link rel="stylesheet" href="stylesheets/bootstrap-image-gallery.min.css">
+
     <script type="text/javascript" src="/javascripts/google_analytics.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript" src="/javascripts/bootstrap.js"></script>
     <script type="text/javascript" src="http://use.typekit.com/fis3tcl.js"></script>
     <script type="text/javascript" src="/javascripts/jquery.fitvids.js"></script>
-    <script src="http://blueimp.github.com/JavaScript-Load-Image/load-image.min.js"></script>
-<script src="javascripts/bootstrap-image-gallery.min.js"></script>
-
+    <script type="text/javascript" src="javascripts/supersized.flickr.1.1.2.js"></script>
+    <script type="text/javascript" src="javascripts/supersized-settings.js"></script>       
     
         <meta name="apple-itunes-app" content="app-id=582511680">  
     
@@ -20,38 +19,29 @@
 
 </head>
 <body class="bezel">
-
-    <div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery">
-      <%= photos %>
-    </div>
     
-  <div class="logo_bezel">
+  <div id="main">
+  <div class="logo_bezel"></div>
+    <p class="medium">
+      <a class="app_store_button" href="https://itunes.apple.com/us/app/bezel-photo/id582511680?mt=8">
+        get it now for free on the App Store
+      </a>
+      <a class="press_release_button" href="/bezel_pr.pdf">
+        read the press release
+      </a>
+      <a class="contact_us_button" href="mailto:bezel@minddiaper.com">
+        contact us
+      </a>
+    </p>
+    <a href="/privacyandterms" class="tos">Privacy Policy & Terms of Service</a>
+    <p class="small">
+      <span class="little">
+        &copy 2012-2013, Mind Diaper
+      </span>
+    </p>
+  
+  </div>
   <a href="https://itunes.apple.com/us/app/bezel-photo/id582511680?ls=1&mt=8">
   <script type="text/javascript" src="/javascripts/bezel.js"></script>
-
-  </div>
-    <div class="app_store_button"></div>
-  </a>
-  <a href="/bezel_pr.pdf">
-    <div class="press_release_button"></div>
-  </a>
-  <a href="mailto:bezel@minddiaper.com">
-    <div class="contact_us_button"></div>
-  </a>
-  
-  <!-- modal-gallery is the modal dialog used for the image gallery -->
-<div id="modal-gallery" class="modal modal-gallery hide fade" tabindex="-1">
-    <div class="modal-header">
-        <a class="close" data-dismiss="modal">&times;</a>
-        <h3 class="modal-title"></h3>
-    </div>
-    <div class="modal-body"><div class="modal-image"></div></div>
-    <div class="modal-footer">
-        <a class="btn btn-primary modal-next">Next <i class="icon-arrow-right icon-white"></i></a>
-        <a class="btn btn-info modal-prev"><i class="icon-arrow-left icon-white"></i> Previous</a>
-        <a class="btn btn-success modal-play modal-slideshow" data-slideshow="5000"><i class="icon-play icon-white"></i> Slideshow</a>
-        <a class="btn modal-download" target="_blank"><i class="icon-download"></i> Download</a>
-    </div>
-</div>
 
 </body>

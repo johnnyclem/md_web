@@ -1,0 +1,82 @@
+/*Demo Styles*/
+p{ padding:0 30px 30px 30px; color:#fff; font:11pt "Helvetica Neue", "Helvetica", Arial, sans-serif; text-shadow: #000 0px 1px 0px; line-height:200%; }
+  p a{ font-size:10pt; text-decoration:none; outline: none; color:#ddd; background:#222; border-top:1px solid #333; padding:5px 8px; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; -moz-box-shadow: 0px 1px 1px #000; -webkit-box-shadow: 0px 1px 1px #000; box-shadow: 0px 1px 1px #000; }
+    p a:hover{ background-color:#427cb4; border-color:#5c94cb; color:#fff; }
+h3{ padding:30px 30px 20px 30px; }
+
+#content{ position:absolute; top:50px; left:50px; background:#111; background:rgba(0,0,0,0.65); width:360px; text-align:left; }
+.stamp{ float: right; margin: 15px 30px 0 0;}
+      
+body {
+  font-size: 100%;
+  font-family:"Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  font-weight:bold; 
+  color: rgba(255, 255, 255, 0.5);
+  float: middle;
+}
+
+p.medium a{
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+span.little {
+  font-size: 12px;
+}
+			
+#main {
+  position: fixed;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+p.small, p.medium {
+  padding: 0;
+}
+
+.tos {
+  color: #555;
+  font-size: 14px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.copy {
+  color: #bbb;
+  width: 50%;
+  padding: 0;
+  padding-bottom: 180px;
+  margin-left: 25%;
+}
+
+.copy h3{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 12px;
+  padding-top: 35px;
+  font-size: 18px;
+}
+
+.copy p{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}

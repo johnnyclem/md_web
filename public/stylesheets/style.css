@@ -732,54 +732,67 @@ body.bezel .logo_bezel {
       background-repeat: no-repeat;
       background-size: auto 86px;
       background-position: center;
-      margin-top: 10%;
+      margin-top: 20px;
+      margin-bottom: 20px;
       height: 86px; }
   body.bezel .app_store_button {
-    background: url("/img/bezel/free_button.png");
-    background-repeat: no-repeat;
-    background-size: auto 64px;
-    background-position: center;
-    margin-top: 52px;
-    height: 64px; }
+  
+  }
+
   body.bezel .press_release_button {
-    background: url("/img/bezel/press_release.png");
-    background-repeat: no-repeat;
-    background-size: auto 64px;
-    background-position: center;
-    margin-top: 16px;
-    height: 64px; }
+
+  }
+
   body.bezel .contact_us_button {
-    background: url("/img/bezel/contact_us.png");
-    background-repeat: no-repeat;
-    background-size: auto 64px;
-    background-position: center;
-    margin-top: 16px;
-    height: 64px; }
+
+  }
 @media screen and (max-width: 320px) {
   body.bezel .logo_bezel {
-      background: url("/img/bezel/logo_bezel.png");
-      background-repeat: no-repeat;
-      background-size: auto 45px;
-      background-position: center;
-      margin-top: 5%;
-      height: 45px; }
+    display: none;
+}
   body.bezel .app_store_button {
     display: none;
   }
-    body.bezel .press_release_button {
-    background: url("/img/bezel/press_release.png");
-    background-repeat: no-repeat;
-    background-size: auto 64px;
-    background-position: center;
-    margin-top: 33px;
-    height: 64px; }
+  body.bezel .press_release_button {
+    font-size: 12px;
+    padding: 3px;
+    float: left;
+  }
   body.bezel .contact_us_button {
-    background: url("/img/bezel/contact_us.png");
-    background-repeat: no-repeat;
-    background-size: auto 64px;
-    background-position: center;
-    margin-top: 33px;
-    height: 64px; }
+    font-size: 12px;
+    padding: 3px;
+    float: right;
+  }
+  #main {
+    height: 44px;
+  }
+  p.small {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  body.bezel .logo_bezel {
+    display: none;
+}
+  body.bezel .app_store_button {
+    display: none;
+  }
+  body.bezel .press_release_button {
+    font-size: 12px;
+    padding: 3px;
+    float: left;
+  }
+  body.bezel .contact_us_button {
+    font-size: 12px;
+    padding: 3px;
+    float: right;
+  }
+  #main {
+    height: 44px;
+  }
+  p.small {
+    display: none;
+  }
 }
   body.cinepro {
     font-family: "proxima-nova", Helvetica, Arial, sans-serif;
